@@ -2,8 +2,22 @@
   <img width="120" alt="Galoy logo" src="https://raw.githubusercontent.com/GaloyMoney/.github/main/img/galoy.png">
 </p>
 
-## ⚡ Developing the open source standard for bitcoin banking. ⚡
-GaloyMoney is an open source project that aims to develop the standard for Bitcoin banking. Originally built as the foundation for the Bitcoin Beach Wallet, it has since attracted numerous open source contributors who work alongside Galoy's engineers. The platform includes infrastructure, backend, API, and frontend components essential for launching a Bitcoin bank.
+# Banking Software for the Bitcoin Age
 
-## Get Started
-Getting started with Galoy is easy. Yet, there are so many things to learn and explore! We recommend to join and introduce yourself in the [Galoy Chat](https://chat.galoy.io). You can also view the developer docs site at [dev.galoy.io](https://dev.galoy.io)
+**Galoy** builds Bitcoin banking infrastructure designed to help financial institutions integrate Bitcoin and Digital Assets seamlessly into their products and operations. Our modular platform enables Bitcoin-native financial services such as bitcoin-backed lending, Bitcoin payments, custodial and non-custodial accounts, and more.
+
+## Products in the Galoy Banking Stack
+
+- **Lana: Digital Asset-backed Lending Platform** – Offer fiat loans secured by Bitcoin collateral.
+- **Bria: Bitcoin Payments Hub** – Manage custody and transactions securely with Bria.
+- **Cala: Core Accounting Ledger** – Build on top of a modern & bitcoin-native core ledger.
+
+## Why Build with Galoy?
+
+- **Bitcoin & Lightning Expertise** – Galoy built and maintains Blink, a world-renowned Bitcoin wallet.
+- **Modern Development Practices** – Cloud-native and event-driven architecture with enhanced observability.
+- **Extensible Architecture** – Integrates with existing banking cores, custodians, and exchanges.
+- **Security & Compliance** – Built to meet high-security standards, including ISO 27001 certification.
+- **Transparency** – Open Source and Fair Source licensing brings accessibility, auditability, and sustainability.
+
+For inquiries, reach out to **[biz@galoy.io](mailto:biz@galoy.io)** or join us on Telegram **[@galoyofficial](https://t.me/galoyofficial)**.
