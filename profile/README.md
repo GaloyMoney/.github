@@ -1,23 +1,36 @@
-<p align="center">
-  <img width="120" alt="Galoy logo" src="https://raw.githubusercontent.com/GaloyMoney/.github/main/img/galoy.png">
-</p>
+# The technology partner for banks embracing the future
 
-# Banking Software for the Bitcoin Age
+**Galoy is building the core banking system for software-native banks. One ledger for dollars, euros, Bitcoin, and stablecoins.**
 
-**Galoy** builds Bitcoin banking infrastructure designed to help financial institutions integrate Bitcoin and Digital Assets seamlessly into their products and operations. Our modular platform enables Bitcoin-native financial services such as bitcoin-backed lending, Bitcoin payments, custodial and non-custodial accounts, and more.
+The Galoy core is written in Rust around an event-sourced, double-entry ledger. Capabilities are built as modules with explicit contracts, enforced at compile time, and the whole system is deployed and operated as one.
 
-## Products in the Galoy Banking Stack
+Inside the core:
 
-- **Lana: Digital Asset-backed Lending Platform** – Offer fiat loans secured by Bitcoin collateral.
-- **Bria: Bitcoin Payments Hub** – Manage custody and transactions securely with Bria.
-- **Cala: Core Accounting Ledger** – Build on top of a modern & bitcoin-native core ledger.
+- **Multi-currency ledger:** dollars, euros, Bitcoin, and stablecoins in one double-entry accounting model
+- **Payments:** ACH, Fedwire, RTP and FedNow, Lightning, and major stablecoins
+- **Digital-asset lending:** term loans and lines of credit collateralized by digital assets, with real-time collateral marking and configurable margin calls. Offered standalone as **[Lana by Galoy](https://galoy.io)**.
+- **Governance:** maker-checker approvals wired into credit and withdrawal flows, with every action logged
+- **Custody:** custody-independent by design. Banks bring their own qualified custodian.
 
-## Why Build with Galoy?
+A de novo institution starts on the Galoy core directly. An incumbent bank can adopt a single module deployed alongside the core it runs today.
 
-- **Bitcoin & Lightning Expertise** – Galoy built and maintains Blink, a world-renowned Bitcoin wallet.
-- **Modern Development Practices** – Cloud-native and event-driven architecture with enhanced observability.
-- **Extensible Architecture** – Integrates with existing banking cores, custodians, and exchanges.
-- **Security & Compliance** – Built to meet high-security standards, including ISO 27001 certification.
-- **Transparency** – Open Source and Fair Source licensing brings accessibility, auditability, and sustainability.
+## Open source
 
-For inquiries, reach out to **[biz@galoy.io](mailto:biz@galoy.io)** or join us on Telegram **[@galoyofficial](https://t.me/galoyofficial)**.
+We open source components for Bitcoin payments, accounting, event sourcing, and reliability infrastructure so builders can inspect, adapt, and reuse them:
+
+| Repository | What it does |
+|---|---|
+| [cala](https://github.com/GaloyMoney/cala) | Double-entry accounting ledger for high-throughput financial applications |
+| [es-entity](https://github.com/GaloyMoney/es-entity) | Persist event-sourced entities in PostgreSQL |
+| [bria](https://github.com/GaloyMoney/bria) | Wallet infrastructure for on-chain Bitcoin operations at scale |
+| [stablesats-rs](https://github.com/GaloyMoney/stablesats-rs) | Bitcoin deposits that hold USD-denominated value |
+| [job](https://github.com/GaloyMoney/job) | Durable background job runner backed by PostgreSQL |
+| [obix](https://github.com/GaloyMoney/obix) | Outbox and inbox patterns for reliable message passing between services |
+
+## Track record
+
+The platform behind the Galoy core ran the Bitcoin Beach Wallet in El Salvador at national scale from 2019 to 2025. Galoy is ISO 27001:2022 certified.
+
+---
+
+Learn how the Galoy core fits your institution at [galoy.io](https://galoy.io)
