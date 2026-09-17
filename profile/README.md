@@ -1,4 +1,4 @@
-# The technology partner for banks embracing the future
+# The technology provider for banks embracing the future
 
 **Galoy is building the core banking system for software-native banks. One ledger for dollars, euros, Bitcoin, and stablecoins.**
 
@@ -8,7 +8,7 @@ Inside the core:
 
 - **Multi-currency ledger:** dollars, euros, Bitcoin, and stablecoins in one double-entry accounting model
 - **Payments:** ACH, Fedwire, RTP and FedNow, Lightning, and major stablecoins
-- **Digital-asset lending:** term loans and lines of credit collateralized by digital assets, with real-time collateral marking and configurable margin calls. Offered standalone as **[Lana by Galoy](https://galoy.io)**.
+- **Digital-asset lending:** term loans and lines of credit collateralized by digital assets, with real-time collateral marking and configurable margin calls.
 - **Governance:** maker-checker approvals wired into credit and withdrawal flows, with every action logged
 - **Custody:** custody-independent by design. Banks bring their own qualified custodian.
 
@@ -20,6 +20,7 @@ We open source components for Bitcoin payments, accounting, event sourcing, and 
 
 | Repository | What it does |
 |---|---|
+| [drua](https://github.com/GaloyMoney/drua) | The open-source harness Galoy uses to run AI agents against its own banking codebase: credential isolation, human approval gates, and a full record of every action. |
 | [cala](https://github.com/GaloyMoney/cala) | Double-entry accounting ledger for high-throughput financial applications |
 | [es-entity](https://github.com/GaloyMoney/es-entity) | Persist event-sourced entities in PostgreSQL |
 | [bria](https://github.com/GaloyMoney/bria) | Wallet infrastructure for on-chain Bitcoin operations at scale |
@@ -29,7 +30,7 @@ We open source components for Bitcoin payments, accounting, event sourcing, and 
 
 ## Track record
 
-The platform behind the Galoy core ran the Bitcoin Beach Wallet in El Salvador at national scale from 2019 to 2025. Galoy is ISO 27001:2022 certified.
+The team behind the Galoy core ran the Bitcoin Beach Wallet in El Salvador at national scale from 2019 to 2025. Galoy is ISO 27001:2022 certified.
 
 ---
 
